@@ -2,11 +2,16 @@
 
 ## Description
     
-This application was created in order to allow a user to manage their team members and information  following a set of prompts in their terminal. 
+This application was created in order to allow a user to manage their team members and information  following a set of prompts in their terminal.
+
+
+https://user-images.githubusercontent.com/116858582/216537717-78e544e0-9a9b-4e4d-a12e-88d40efee0a7.mov
+
+
 
 ## License
     
-![NPM](https://img.shields.io/npm/l/inquirer@8.2.4)
+https://img.shields.io/npm/l/express
     
 ## Table of Contents
    
