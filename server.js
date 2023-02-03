@@ -194,8 +194,7 @@ const viewDepartments = () => {
 };
 
 const addDepartment = () => {
-  inquirer
-    .prompt([
+  inquirer.prompt([
       {
         name: "departmentName",
         type: "input",
@@ -203,7 +202,7 @@ const addDepartment = () => {
       },
     ])
     .then(ans => {
-        db.query("INSERT INTO department(name) VALUES (?)", [departmentName], (err, results) => {
+        db.query("INSERT INTO department(name) VALUES (?)", [ans.departmentName], (err, results) => {
             if (err){
                 console.log(err)
             }else{
